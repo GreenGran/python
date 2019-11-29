@@ -1,0 +1,15 @@
+
+def createMatrix(size):
+    templist=[]
+    for i in range(size):
+        templist.append([])
+        for j in range(size): 
+            templist[int(i)].append(int(j))
+    
+           
+    return templist
+        
+        
+list1=[]
+list1=createMatrix(6)
+print(list1)
