@@ -1,0 +1,10 @@
+
+list1 = [[2,3,1],[4,5],[6,8]]
+list2 = [[4,5],[6,8]]
+output = "Flase"
+for i in list2:
+    for j in list1:
+        if j==i:
+            output = "True"
+    
+print("output:"+output)
