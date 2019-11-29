@@ -1,0 +1,13 @@
+
+def makeList(n):
+    templist=[]
+    for i in range(n):
+        templist.append([])
+        for j in range(0,i+1):
+               templist[i].append(int(j+1))
+            
+    return templist
+            
+list1 =[]
+list1=makeList(4)
+print(list1)
