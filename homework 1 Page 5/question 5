@@ -1,0 +1,15 @@
+
+def flattenMatrix(mat):
+    templist = []
+    for i in mat:
+        for j in i: 
+            templist.append(int(j))
+        
+    return templist
+        
+    
+    
+    
+list1 =[[1,2,3],[4,5,6]]
+list1=flattenMatrix(list1)
+print(list1)
