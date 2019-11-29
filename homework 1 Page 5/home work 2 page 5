@@ -1,0 +1,26 @@
+
+list1=[['A'],['B','A'],['A','B','C']]
+list2=[[1,2,3,9,4],[5],[3,8],[2]]
+minlen=0
+templist=[]
+longistList=[]
+
+minlen2=0
+templist2=[]
+longistList2=[]
+for i in list1:
+    if len(i)>minlen:
+        minlen = len(i)
+        templist=i
+        
+longistList.append(templist)
+longistList.append(minlen)
+print (longistList)
+for j in list2:
+    if len(j)>minlen2:
+        minlen2 = len(j)
+        templist=j
+        
+longistList2.append(templist)
+longistList2.append(minlen2)
+print (longistList2)
