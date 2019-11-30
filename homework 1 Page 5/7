@@ -1,0 +1,22 @@
+def even(num):
+
+    while(num > 1): 
+
+        temp = num % 10
+        if temp % 2 != 0:
+            return False
+        num /= 10
+    return True
+
+
+
+
+
+def evenDigitsNum():
+    ls = [print(num) for num in range(17,1000) if even(num) == True]
+
+
+
+
+
+evenDigitsNum()
