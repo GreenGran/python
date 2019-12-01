@@ -1,0 +1,13 @@
+def func(st):
+    counter= dict()
+    for ch in st:
+        if ch not in counter:
+            counter[ch]=1
+        else:
+            counter[ch]+=1
+    return counter
+
+def main():
+    st='all you need is love'
+    print(func(st))
+main()
